@@ -1,11 +1,14 @@
-import React, { Fragment } from "react";
-import ReactDOM from "react-dom";
-import "./index.css";
+import React, { Fragment } from "react"
+import ReactDOM from "react-dom"
+import "./index.css"
+import Popular from './components/popular/popular'
 
 class App extends React.Component {
   render() {
     return (
-      <div>Hello World!!</div>
+      <div className= 'container'>
+        <Popular/>
+      </div>
     );
   }
 }
